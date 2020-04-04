@@ -6,9 +6,11 @@ import random
 import re
 import sys
 
+
 # Complete the equalizeArray function below.
 def equalizeArray(arr):
-    return (len(arr)-arr.count(max(arr,key=arr.count)))
+    return len(arr) - arr.count(max(arr, key=arr.count))
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

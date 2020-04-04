@@ -6,12 +6,14 @@ import random
 import re
 import sys
 
+
 # Complete the sockMerchant function below.
 def sockMerchant(n, ar):
     numdict = {}
     for k in ar:
-        numdict[k] = int(ar.count(k)/2)
-    return(sum(numdict.values()))
+        numdict[k] = int(ar.count(k) / 2)
+    return sum(numdict.values())
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

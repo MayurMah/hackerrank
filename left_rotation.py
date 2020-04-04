@@ -6,9 +6,11 @@ import random
 import re
 import sys
 
+
 # Complete the rotLeft function below.
 def rotLeft(a, d):
-    return [a[int((i+d)%len(a))] for i in range(len(a))]
+    return [a[int((i + d) % len(a))] for i in range(len(a))]
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

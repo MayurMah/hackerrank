@@ -7,26 +7,24 @@ import re
 import sys
 from operator import add
 
+
 # Complete the nonDivisibleSubset function below.
 def nonDivisibleSubset(k, S):
-    temp = [0]*k
+    temp = [0] * k
 
     for x in S:
         temp[x % k] += 1
 
-    #print(S)
-    #print(temp)
-
     res = 0
 
-    for i in range(k//2+1):
-        if i == 0 or k == i*2:
+    for i in range(k // 2 + 1):
+        if i == 0 or k == i * 2:
             res += bool(temp[i])
         else:
-            res += max(temp[i], temp[k-i])
+            res += max(temp[i], temp[k - i])
 
-    #print(res)
     return res
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

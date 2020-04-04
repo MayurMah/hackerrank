@@ -6,9 +6,10 @@ import random
 import re
 import sys
 
+
 # Complete the lilysHomework function below.
 def numSwaps(arr):
-    positions = sorted(list(enumerate(arr)),key= lambda e:e[1])
+    positions = sorted(list(enumerate(arr)), key=lambda e: e[1])
     num_swaps = 0
     swapped_idx = 0
 
@@ -19,8 +20,9 @@ def numSwaps(arr):
             else:
                 num_swaps += 1
                 swapped_idx = positions[idx][0]
-                positions[idx],positions[swapped_idx] = positions[swapped_idx], positions[idx]
+                positions[idx], positions[swapped_idx] = positions[swapped_idx], positions[idx]
     return num_swaps
+
 
 def lilysHomework(arr):
     """Find the number of swaps needed to get to an array where difference between consecutive elements is minimum
@@ -33,7 +35,8 @@ def lilysHomework(arr):
 
     """
 
-    return min(numSwaps(arr),numSwaps(arr[::-1]))
+    return min(numSwaps(arr), numSwaps(arr[::-1]))
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

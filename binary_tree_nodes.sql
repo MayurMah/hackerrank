@@ -1,4 +1,4 @@
-# MS SQL 
+-- MS SQL
 
 select distinct 
     b1.N

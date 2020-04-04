@@ -1,4 +1,4 @@
-# MS SQL
+-- MS SQL
 
 select (case when Grade >= 8 then Name else NULL end), Grade, Marks   
 from Students s 

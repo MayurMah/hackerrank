@@ -1,4 +1,4 @@
-# MS SQL
+-- MS SQL
 
 select [Doctor],[Professor],[Singer],[Actor] from 
 ( 

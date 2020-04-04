@@ -1,4 +1,4 @@
-# MS SQL 
+-- MS SQL
 
 set quoted_identifier ON;
 With temp as

@@ -1,4 +1,4 @@
-# MS SQL 
+-- MS SQL
 
 select id,age,coins_needed, power from 
 (select id, age, coins_needed, power, dense_rank() over(partition by power,age order by coins_needed asc) w_rank

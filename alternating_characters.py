@@ -6,10 +6,22 @@ import random
 import re
 import sys
 
+
 # Complete the alternatingCharacters function below.
 def alternatingCharacters(s):
+    """Find minimum number of deletions required to delete all consecutive repeating characters from the given string.
+        Ex. AABAAB -> ABAB (ans: 2)
 
-    return sum([s[i:i+2] in {'AA','BB'} for i in range(len(s))])
+    Args:
+        s(str): given string
+
+    Returns:
+        Minimum number of deletions required to delete all consecutive repeating characters from the given string.
+
+    """
+
+    return sum([s[i:i + 2] in {'AA', 'BB'} for i in range(len(s))])
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

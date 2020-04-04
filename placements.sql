@@ -1,4 +1,4 @@
-# MS SQL
+-- MS SQL
 
 select s.Name 
 from Students s 

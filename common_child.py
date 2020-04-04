@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 # Complete the commonChild function below.
 def commonChild(s1, s2):
     prev_lcs = [0] * (len(s2) + 1)

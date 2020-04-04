@@ -1,2 +1,42 @@
 # hackerrank
 My solutions to hackerrank problems
+
+## Problem Descriptions:
+### Python
+- [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem) 
+- [Bigger is Greater](https://www.hackerrank.com/challenges/bigger-is-greater/problem)
+- [Climbing the Leaderboard](https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem)
+- [Common Child](https://www.hackerrank.com/challenges/common-child/problem)
+- [Compare Triplets](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+- [Count Valleys](https://www.hackerrank.com/challenges/counting-valleys/problem)
+- [Diagonal Difference](https://www.hackerrank.com/challenges/diagonal-difference/problem)
+- [Equalize Array](https://www.hackerrank.com/challenges/equality-in-a-array/problem)
+- [Full Counting Sort](https://www.hackerrank.com/challenges/countingsort4/problem)
+- [Hourglass Sum](http://hackerrank.com/challenges/2d-array/problem)
+- [Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds/problem)
+- [Larry's Array](https://www.hackerrank.com/challenges/larrys-array/problem)
+- [Left Rotation](https://www.hackerrank.com/challenges/array-left-rotation/problem)
+- [Lily's homework](https://www.hackerrank.com/challenges/lilys-homework/problem)
+- [Magic Square](https://www.hackerrank.com/challenges/magic-square-forming/problem)
+- [Making Anagrams](https://www.hackerrank.com/challenges/making-anagrams/problem)
+- [Min Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)
+- [New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos/problem)
+- [Non Divisible Subset](https://www.hackerrank.com/challenges/non-divisible-subset/problem)
+- [Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)
+- [Repeated Strings](https://www.hackerrank.com/challenges/repeated-string/problem)
+- [Shrelock and Moving Tiles](https://www.hackerrank.com/challenges/sherlock-and-moving-tiles/problem)
+- [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem)
+- [Short Palindrome](https://www.hackerrank.com/challenges/short-palindrome/problem)
+- [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem)
+- [Special Palindrome Again](https://www.hackerrank.com/challenges/special-palindrome-again/problem)
+- [Staircase](https://www.hackerrank.com/challenges/staircase/problem)
+
+### SQL 
+* [Binary Tree Nodes](https://www.hackerrank.com/challenges/binary-search-tree-1/problem)
+* [Challenges](https://www.hackerrank.com/challenges/challenges/problem)
+* [Occupations](https://www.hackerrank.com/challenges/occupations/problem)
+* [Ollivander's Inventory](https://www.hackerrank.com/challenges/harry-potter-and-wands/problem)
+* [Placements](https://www.hackerrank.com/challenges/placements/problem)
+* [Prime Numbers](https://www.hackerrank.com/challenges/print-prime-numbers/problem)
+* [Symmetric Pairs](https://www.hackerrank.com/challenges/symmetric-pairs/problem)
+* [The Report](https://www.hackerrank.com/challenges/the-report/problem)

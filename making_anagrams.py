@@ -7,16 +7,14 @@ import re
 import sys
 from collections import Counter
 
+
 # Complete the makeAnagram function below.
 def makeAnagram(a, b):
-    print(a,b)
+    print(a, b)
     l = Counter(a)
     m = Counter(b)
-    intersect = l&m
-    return len(a)+len(b)-2*len(list(intersect.elements()))
-
-
-
+    intersect = l & m
+    return len(a) + len(b) - 2 * len(list(intersect.elements()))
 
 
 if __name__ == '__main__':

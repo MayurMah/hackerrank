@@ -1,4 +1,4 @@
-# MS SQL 
+-- MS SQL
 
 select 
     hacker_id,name

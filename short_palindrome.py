@@ -6,6 +6,7 @@ import random
 import re
 import sys
 
+
 # Complete the shortPalindrome function below.
 def shortPalindrome(s):
     """Find number of short palindromes in input string s using dynamic programming
@@ -33,13 +34,14 @@ def shortPalindrome(s):
     for current in s:
         c = ord(current) - ord('a')
         for i in range(26):
-            ans += (c3[c][i]%MOD)
+            ans += (c3[c][i] % MOD)
             c3[i][c] += c2[i][c]
             c2[i][c] += c1[i]
         # print(c, c1[i], c2[i][c], c3[c][i])
         c1[c] += 1
 
-    return ans%MOD
+    return ans % MOD
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

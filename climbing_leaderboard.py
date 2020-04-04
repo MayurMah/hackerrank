@@ -6,20 +6,21 @@ import random
 import re
 import sys
 
+
 # Complete the climbingLeaderboard function below.
 def climbingLeaderboard(scores, alice):
-
-    s = sorted(set(scores),reverse=True)
-    flag = [0]*len(alice)
+    s = sorted(set(scores), reverse=True)
+    flag = [0] * len(alice)
     res = list()
     l = len(s)
 
     for score in alice:
-        while (l > 0) and (score >= s[l-1]):
+        while (l > 0) and (score >= s[l - 1]):
             l -= 1
-        res.append(l+1)
+        res.append(l + 1)
 
     return res
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

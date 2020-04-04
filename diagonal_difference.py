@@ -6,12 +6,14 @@ import random
 import re
 import sys
 
+
 # Complete the diagonalDifference function below.
 def diagonalDifference(arr):
     print(arr)
     l = len(arr)
-    r = sum([row[i]-row[l-i-1] for i, row in enumerate(arr)])
+    r = sum([row[i] - row[l - i - 1] for i, row in enumerate(arr)])
     return abs(r)
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
